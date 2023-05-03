@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19981CFDE4A51E5D2D84F5FCE4D70FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		56C6E4DA57A5852C4C1E1C4BD07AA207 /* KonkeSdk4YinYue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F14C125B36A79D1C9CFAEF9EED61C1F5 /* KonkeSdk4YinYue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584E6A8CB9640C9C6AF251A578A863F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89F11CD20934E12DE9059260C2E89741 /* KonkeSdk4YinYue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC03388D7AD5AD60BF6EAC124FF251D /* KonkeSdk4YinYue-dummy.m */; };
+		8EC392A567AB5E2157362F0AC03DDAF4 /* Pods-KonkeSdk4YinYue_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F8D7C8ACB7D7099B8C905DF3D62AB3 /* Pods-KonkeSdk4YinYue_Example-dummy.m */; };
+		9F82BAAD68B33915F006ED0567E8EA5C /* Pods-KonkeSdk4YinYue_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA53B4E7F0B343099AE7DDDD633FC723 /* Pods-KonkeSdk4YinYue_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBD8B9C597E2753427371A08B476982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E02BB82092C63CD4F11BD02AB0775130 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234EE61560D2F93FAD3C873B5292F663 /* ReplaceMe.swift */; };
+		ED84E5630DE763CC15C41964BA22E6EB /* Pods-KonkeSdk4YinYue_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B53C308C96896DA5150319F834B986EF /* Pods-KonkeSdk4YinYue_Tests-dummy.m */; };
+		F8CB86DE2DD9519D882364F28A4346BB /* Pods-KonkeSdk4YinYue_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2B0CD8800FCCE6ED91954D294B2453 /* Pods-KonkeSdk4YinYue_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		087DF529F0C636D770C227FEA5AFCB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 774811836EEA333C538C5F1A154C8829;
+			remoteInfo = "Pods-KonkeSdk4YinYue_Example";
+		};
+		65B8527F9FDBFA12681AC668CC05F22E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2A3A53EF582AB7F1FCB04E360A86FD0;
+			remoteInfo = KonkeSdk4YinYue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02713186F835882B571DF83292F9DE39 /* Pods-KonkeSdk4YinYue_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EC03388D7AD5AD60BF6EAC124FF251D /* KonkeSdk4YinYue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KonkeSdk4YinYue-dummy.m"; sourceTree = "<group>"; };
+		139B4346226D0532F9692439C1550387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		234EE61560D2F93FAD3C873B5292F663 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KonkeSdk4YinYue/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		32C242B21B2BCF82183723812A13A712 /* Pods-KonkeSdk4YinYue_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_Example-Info.plist"; sourceTree = "<group>"; };
+		40BFFB4AAD565FAB330BBB39BC39A23E /* Pods-KonkeSdk4YinYue_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonkeSdk4YinYue_Tests.modulemap"; sourceTree = "<group>"; };
+		4984AE2E2F990D54B63F1ADBC56CDE53 /* Pods-KonkeSdk4YinYue_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonkeSdk4YinYue_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5372BBFE82B09322285B1FD20D5CD9A3 /* KonkeSdk4YinYue.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KonkeSdk4YinYue.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		54C3E3DC9C861F71CDBD7C3C1370AB64 /* Pods-KonkeSdk4YinYue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54D55AE5DC736B8A0D9D45B7F66E4639 /* Pods-KonkeSdk4YinYue_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_Example.release.xcconfig"; sourceTree = "<group>"; };
+		577D57A238C3509D5985C4CA451E8573 /* Pods-KonkeSdk4YinYue_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KonkeSdk4YinYue_Example-frameworks.sh"; sourceTree = "<group>"; };
+		67D4B53C532E22EB53EE3CF21B836E64 /* Pods-KonkeSdk4YinYue_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6988FD3C8B6872514252A2CC8DD4ABA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6BC4E19C8A5FB5EFB5DF055F989760A1 /* Pods-KonkeSdk4YinYue_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7162C69FFD21F9C201F50E91B18CFB2A /* Pods-KonkeSdk4YinYue_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KonkeSdk4YinYue_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77B8D8B0B36DB6B6F7594C33D9D61BA6 /* Pods-KonkeSdk4YinYue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KonkeSdk4YinYue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81BE8150DC6EEA4DCB8370605C0B3D4D /* KonkeSdk4YinYue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue.debug.xcconfig; sourceTree = "<group>"; };
+		8F43C4C0BB36D147C32A6779C44AC2B2 /* KonkeSdk4YinYue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KonkeSdk4YinYue.modulemap; sourceTree = "<group>"; };
+		9432C696E179D67460B7F1D8896BFB82 /* Pods-KonkeSdk4YinYue_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KonkeSdk4YinYue_Example.modulemap"; sourceTree = "<group>"; };
+		9AF8C2C99F8F964D4E7D2A3DB0FEEC17 /* Pods-KonkeSdk4YinYue_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KonkeSdk4YinYue_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10AE3A0C71C4B5D30D0B9EDCECB6C42 /* KonkeSdk4YinYue */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KonkeSdk4YinYue; path = KonkeSdk4YinYue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53C308C96896DA5150319F834B986EF /* Pods-KonkeSdk4YinYue_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonkeSdk4YinYue_Tests-dummy.m"; sourceTree = "<group>"; };
+		BEA52F301D197F09353A76BCD2BBB2E5 /* Pods-KonkeSdk4YinYue_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KonkeSdk4YinYue_Example"; path = Pods_KonkeSdk4YinYue_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0AA9F2AA189903C97F67C12A6A07516 /* Pods-KonkeSdk4YinYue_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KonkeSdk4YinYue_Tests"; path = Pods_KonkeSdk4YinYue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F8D7C8ACB7D7099B8C905DF3D62AB3 /* Pods-KonkeSdk4YinYue_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KonkeSdk4YinYue_Example-dummy.m"; sourceTree = "<group>"; };
+		DA53B4E7F0B343099AE7DDDD633FC723 /* Pods-KonkeSdk4YinYue_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonkeSdk4YinYue_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E49892FF6A17E9EE7034C7F369F792F8 /* KonkeSdk4YinYue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KonkeSdk4YinYue.release.xcconfig; sourceTree = "<group>"; };
+		EBCC2F918F7D314CCF6389ECBB9565EE /* KonkeSdk4YinYue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KonkeSdk4YinYue-prefix.pch"; sourceTree = "<group>"; };
+		EE2B0CD8800FCCE6ED91954D294B2453 /* Pods-KonkeSdk4YinYue_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KonkeSdk4YinYue_Example-umbrella.h"; sourceTree = "<group>"; };
+		F14C125B36A79D1C9CFAEF9EED61C1F5 /* KonkeSdk4YinYue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KonkeSdk4YinYue-umbrella.h"; sourceTree = "<group>"; };
+		FFAB01F7699C5728DB198C365A3BC526 /* KonkeSdk4YinYue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KonkeSdk4YinYue-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085B1AEB99847451106E55536112BFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBD8B9C597E2753427371A08B476982 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B55C4BEDFACFC7CDAF436B4A9744D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19981CFDE4A51E5D2D84F5FCE4D70FF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3455770578D00202DBF25BD8DCBFBEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584E6A8CB9640C9C6AF251A578A863F3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B0053C1DB7AD8392D335D35BE58DC9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F43C4C0BB36D147C32A6779C44AC2B2 /* KonkeSdk4YinYue.modulemap */,
+				0EC03388D7AD5AD60BF6EAC124FF251D /* KonkeSdk4YinYue-dummy.m */,
+				FFAB01F7699C5728DB198C365A3BC526 /* KonkeSdk4YinYue-Info.plist */,
+				EBCC2F918F7D314CCF6389ECBB9565EE /* KonkeSdk4YinYue-prefix.pch */,
+				F14C125B36A79D1C9CFAEF9EED61C1F5 /* KonkeSdk4YinYue-umbrella.h */,
+				81BE8150DC6EEA4DCB8370605C0B3D4D /* KonkeSdk4YinYue.debug.xcconfig */,
+				E49892FF6A17E9EE7034C7F369F792F8 /* KonkeSdk4YinYue.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KonkeSdk4YinYue";
+			sourceTree = "<group>";
+		};
+		436E8B2994C9B35C2A7C887326976778 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD33B450C4E023449E4B5D83EFD2DB8 /* Pods-KonkeSdk4YinYue_Example */,
+				F1A8E95B989302A833685350D763738D /* Pods-KonkeSdk4YinYue_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D8BCF88F5D266A2D443D7C1C69C87DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10AE3A0C71C4B5D30D0B9EDCECB6C42 /* KonkeSdk4YinYue */,
+				BEA52F301D197F09353A76BCD2BBB2E5 /* Pods-KonkeSdk4YinYue_Example */,
+				D0AA9F2AA189903C97F67C12A6A07516 /* Pods-KonkeSdk4YinYue_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DFBA4F912294C640F62E360DC9231C0 /* KonkeSdk4YinYue */ = {
+			isa = PBXGroup;
+			children = (
+				234EE61560D2F93FAD3C873B5292F663 /* ReplaceMe.swift */,
+				96F8244FF54100895E438BD7172449E4 /* Pod */,
+				1B0053C1DB7AD8392D335D35BE58DC9B /* Support Files */,
+			);
+			name = KonkeSdk4YinYue;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CE53666DEC47FADF821CBE033E00816 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DFBA4F912294C640F62E360DC9231C0 /* KonkeSdk4YinYue */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		96F8244FF54100895E438BD7172449E4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5372BBFE82B09322285B1FD20D5CD9A3 /* KonkeSdk4YinYue.podspec */,
+				6988FD3C8B6872514252A2CC8DD4ABA5 /* LICENSE */,
+				139B4346226D0532F9692439C1550387 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8CE53666DEC47FADF821CBE033E00816 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5D8BCF88F5D266A2D443D7C1C69C87DC /* Products */,
+				436E8B2994C9B35C2A7C887326976778 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1A8E95B989302A833685350D763738D /* Pods-KonkeSdk4YinYue_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				40BFFB4AAD565FAB330BBB39BC39A23E /* Pods-KonkeSdk4YinYue_Tests.modulemap */,
+				4984AE2E2F990D54B63F1ADBC56CDE53 /* Pods-KonkeSdk4YinYue_Tests-acknowledgements.markdown */,
+				02713186F835882B571DF83292F9DE39 /* Pods-KonkeSdk4YinYue_Tests-acknowledgements.plist */,
+				B53C308C96896DA5150319F834B986EF /* Pods-KonkeSdk4YinYue_Tests-dummy.m */,
+				9AF8C2C99F8F964D4E7D2A3DB0FEEC17 /* Pods-KonkeSdk4YinYue_Tests-Info.plist */,
+				DA53B4E7F0B343099AE7DDDD633FC723 /* Pods-KonkeSdk4YinYue_Tests-umbrella.h */,
+				77B8D8B0B36DB6B6F7594C33D9D61BA6 /* Pods-KonkeSdk4YinYue_Tests.debug.xcconfig */,
+				54C3E3DC9C861F71CDBD7C3C1370AB64 /* Pods-KonkeSdk4YinYue_Tests.release.xcconfig */,
+			);
+			name = "Pods-KonkeSdk4YinYue_Tests";
+			path = "Target Support Files/Pods-KonkeSdk4YinYue_Tests";
+			sourceTree = "<group>";
+		};
+		FAD33B450C4E023449E4B5D83EFD2DB8 /* Pods-KonkeSdk4YinYue_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9432C696E179D67460B7F1D8896BFB82 /* Pods-KonkeSdk4YinYue_Example.modulemap */,
+				7162C69FFD21F9C201F50E91B18CFB2A /* Pods-KonkeSdk4YinYue_Example-acknowledgements.markdown */,
+				6BC4E19C8A5FB5EFB5DF055F989760A1 /* Pods-KonkeSdk4YinYue_Example-acknowledgements.plist */,
+				D6F8D7C8ACB7D7099B8C905DF3D62AB3 /* Pods-KonkeSdk4YinYue_Example-dummy.m */,
+				577D57A238C3509D5985C4CA451E8573 /* Pods-KonkeSdk4YinYue_Example-frameworks.sh */,
+				32C242B21B2BCF82183723812A13A712 /* Pods-KonkeSdk4YinYue_Example-Info.plist */,
+				EE2B0CD8800FCCE6ED91954D294B2453 /* Pods-KonkeSdk4YinYue_Example-umbrella.h */,
+				67D4B53C532E22EB53EE3CF21B836E64 /* Pods-KonkeSdk4YinYue_Example.debug.xcconfig */,
+				54D55AE5DC736B8A0D9D45B7F66E4639 /* Pods-KonkeSdk4YinYue_Example.release.xcconfig */,
+			);
+			name = "Pods-KonkeSdk4YinYue_Example";
+			path = "Target Support Files/Pods-KonkeSdk4YinYue_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		396D7301B74CDF93C74E4B4A91989E23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CB86DE2DD9519D882364F28A4346BB /* Pods-KonkeSdk4YinYue_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98C57166E1748142831A3C30DD6C4606 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F82BAAD68B33915F006ED0567E8EA5C /* Pods-KonkeSdk4YinYue_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAADE67EA40B7984EF9C3C50B521E440 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C6E4DA57A5852C4C1E1C4BD07AA207 /* KonkeSdk4YinYue-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		774811836EEA333C538C5F1A154C8829 /* Pods-KonkeSdk4YinYue_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810239F214097CEDAC338F1180AF4FC3 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_Example" */;
+			buildPhases = (
+				396D7301B74CDF93C74E4B4A91989E23 /* Headers */,
+				B3868A461D7F7AD956633AE54AEA0B72 /* Sources */,
+				085B1AEB99847451106E55536112BFE4 /* Frameworks */,
+				BD451CBCFA04448E42E007FA75428D2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C136761823004FD255C0AEF4519E0A76 /* PBXTargetDependency */,
+			);
+			name = "Pods-KonkeSdk4YinYue_Example";
+			productName = Pods_KonkeSdk4YinYue_Example;
+			productReference = BEA52F301D197F09353A76BCD2BBB2E5 /* Pods-KonkeSdk4YinYue_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A11029862C4ED1F72B7944AFF7EAD81 /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue" */;
+			buildPhases = (
+				FAADE67EA40B7984EF9C3C50B521E440 /* Headers */,
+				43047241589DBACAF144DFCE24F868B9 /* Sources */,
+				D1B55C4BEDFACFC7CDAF436B4A9744D2 /* Frameworks */,
+				F71AE0A044DB4A537205EF0D341BA58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KonkeSdk4YinYue;
+			productName = KonkeSdk4YinYue;
+			productReference = A10AE3A0C71C4B5D30D0B9EDCECB6C42 /* KonkeSdk4YinYue */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB16644A9821E32554C5F8B53E4D77A9 /* Pods-KonkeSdk4YinYue_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB6487BC3AD442A793407AD18C943C1 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_Tests" */;
+			buildPhases = (
+				98C57166E1748142831A3C30DD6C4606 /* Headers */,
+				78A8FD0020CE963A44C2A0950D1780B0 /* Sources */,
+				E3455770578D00202DBF25BD8DCBFBEC /* Frameworks */,
+				9BCF5F740F6E991FDCB2A6E48B80ED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE7AD21137342D57B40699E0477EC3F /* PBXTargetDependency */,
+			);
+			name = "Pods-KonkeSdk4YinYue_Tests";
+			productName = Pods_KonkeSdk4YinYue_Tests;
+			productReference = D0AA9F2AA189903C97F67C12A6A07516 /* Pods-KonkeSdk4YinYue_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D8BCF88F5D266A2D443D7C1C69C87DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */,
+				774811836EEA333C538C5F1A154C8829 /* Pods-KonkeSdk4YinYue_Example */,
+				DB16644A9821E32554C5F8B53E4D77A9 /* Pods-KonkeSdk4YinYue_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCF5F740F6E991FDCB2A6E48B80ED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD451CBCFA04448E42E007FA75428D2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F71AE0A044DB4A537205EF0D341BA58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43047241589DBACAF144DFCE24F868B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F11CD20934E12DE9059260C2E89741 /* KonkeSdk4YinYue-dummy.m in Sources */,
+				E02BB82092C63CD4F11BD02AB0775130 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A8FD0020CE963A44C2A0950D1780B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED84E5630DE763CC15C41964BA22E6EB /* Pods-KonkeSdk4YinYue_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3868A461D7F7AD956633AE54AEA0B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC392A567AB5E2157362F0AC03DDAF4 /* Pods-KonkeSdk4YinYue_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BE7AD21137342D57B40699E0477EC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KonkeSdk4YinYue_Example";
+			target = 774811836EEA333C538C5F1A154C8829 /* Pods-KonkeSdk4YinYue_Example */;
+			targetProxy = 087DF529F0C636D770C227FEA5AFCB69 /* PBXContainerItemProxy */;
+		};
+		C136761823004FD255C0AEF4519E0A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KonkeSdk4YinYue;
+			target = C2A3A53EF582AB7F1FCB04E360A86FD0 /* KonkeSdk4YinYue */;
+			targetProxy = 65B8527F9FDBFA12681AC668CC05F22E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B920DCF16428DC8889AE0156AC98E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C3E3DC9C861F71CDBD7C3C1370AB64 /* Pods-KonkeSdk4YinYue_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Tests/Pods-KonkeSdk4YinYue_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Tests/Pods-KonkeSdk4YinYue_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D233BFD868D77B2A15FFB570F746255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D55AE5DC736B8A0D9D45B7F66E4639 /* Pods-KonkeSdk4YinYue_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Example/Pods-KonkeSdk4YinYue_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Example/Pods-KonkeSdk4YinYue_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5267D9CD3F7F19EB7DEBF8A97B0F4713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B8D8B0B36DB6B6F7594C33D9D61BA6 /* Pods-KonkeSdk4YinYue_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Tests/Pods-KonkeSdk4YinYue_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Tests/Pods-KonkeSdk4YinYue_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79D09C1CBDB70F0693825DDBAFBCAE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D4B53C532E22EB53EE3CF21B836E64 /* Pods-KonkeSdk4YinYue_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Example/Pods-KonkeSdk4YinYue_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KonkeSdk4YinYue_Example/Pods-KonkeSdk4YinYue_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		948A803FDF20E7B6BC49A5B9C1383582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BE8150DC6EEA4DCB8370605C0B3D4D /* KonkeSdk4YinYue.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue.modulemap";
+				PRODUCT_MODULE_NAME = KonkeSdk4YinYue;
+				PRODUCT_NAME = KonkeSdk4YinYue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B393ED5C568F3B1DD87F7B93A4A825AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49892FF6A17E9EE7034C7F369F792F8 /* KonkeSdk4YinYue.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KonkeSdk4YinYue/KonkeSdk4YinYue.modulemap";
+				PRODUCT_MODULE_NAME = KonkeSdk4YinYue;
+				PRODUCT_NAME = KonkeSdk4YinYue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810239F214097CEDAC338F1180AF4FC3 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D09C1CBDB70F0693825DDBAFBCAE53 /* Debug */,
+				1D233BFD868D77B2A15FFB570F746255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB6487BC3AD442A793407AD18C943C1 /* Build configuration list for PBXNativeTarget "Pods-KonkeSdk4YinYue_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5267D9CD3F7F19EB7DEBF8A97B0F4713 /* Debug */,
+				0B920DCF16428DC8889AE0156AC98E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A11029862C4ED1F72B7944AFF7EAD81 /* Build configuration list for PBXNativeTarget "KonkeSdk4YinYue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948A803FDF20E7B6BC49A5B9C1383582 /* Debug */,
+				B393ED5C568F3B1DD87F7B93A4A825AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

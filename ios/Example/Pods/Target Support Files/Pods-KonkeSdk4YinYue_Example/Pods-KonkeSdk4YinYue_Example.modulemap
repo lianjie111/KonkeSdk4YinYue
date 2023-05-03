@@ -1,0 +1,6 @@
+framework module Pods_KonkeSdk4YinYue_Example {
+  umbrella header "Pods-KonkeSdk4YinYue_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
