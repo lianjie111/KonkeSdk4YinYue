@@ -1,6 +1,0 @@
-framework module KonkeSdk4YinYue {
-  umbrella header "KonkeSdk4YinYue-umbrella.h"
-
-  export *
-  module * { export * }
-}
